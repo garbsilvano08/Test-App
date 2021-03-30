@@ -51,7 +51,7 @@ function generateDetailsPhone(personDetails){
                          Suite: ${personDetails.address.suite}
                          ZipCode: ${personDetails.address.zipcode}
                          Geo: Latitude: ${personDetails.address.geo.lat}
-                              Longtitude: ${personDetails.address.geo.lngcor}`;
+                              Longtitude: ${personDetails.address.geo.lng}`;
     addressContainer.appendChild(address);
 
     const companyContainer = document.createElement('div');
